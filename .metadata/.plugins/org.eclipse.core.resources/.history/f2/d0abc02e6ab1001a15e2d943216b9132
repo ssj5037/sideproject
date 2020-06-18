@@ -1,0 +1,9 @@
+package com.test.libmain;
+
+public class Exe {
+
+	public static void main(String[] args) {
+		CommonMethod cm=new CommonMethod();
+		cm.getHead("1", "2", "3");
+	}//main
+}//exe

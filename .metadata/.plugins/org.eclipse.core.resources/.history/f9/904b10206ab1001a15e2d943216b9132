@@ -1,0 +1,36 @@
+package com.test.libmain;
+
+public class CommonMethod {
+	
+	public void getHead(String first) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("============================================================");
+		System.out.printf("%s\n",first);
+		System.out.println("============================================================");
+	}//getHead
+	
+	public void getHead(String first, String second) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("============================================================");
+		System.out.printf("%s- %s\n",first,second);
+		System.out.println("============================================================");
+	}//getHead
+	
+	public void getHead(String first, String second, String third) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("============================================================");
+		System.out.printf("%s- %s %s\n",first,second,third);
+		System.out.println("============================================================");
+	}//getHead
+	
+	public void getHead(String first, String second, String third, String forth) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("============================================================");
+		System.out.printf("%s- %s %s %s\n",first,second,third,forth);
+		System.out.println("============================================================");
+	}//getHead
+}

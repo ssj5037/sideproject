@@ -1,0 +1,9 @@
+package com.test.libmain;
+
+public class Exe {
+
+	public static void main(String[] args) {
+		CommonMethod cm=new CommonMethod();
+		cm.getHead("1. 관리자", "2.회원관리", "3.어쩌고저쩌고");
+	}//main
+}//exe

@@ -1,0 +1,8 @@
+package com.test.libmain;
+
+public class Exe {
+
+	public static void main(String[] args) {
+		
+	}//main
+}//exe
